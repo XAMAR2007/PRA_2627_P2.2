@@ -4,3 +4,6 @@ bin/testDyV: testDyV.cpp DyV.h
 
 clean:
 	rm -rf *.o *.gch *.pch bin
+bin/testMonedas: testMonedas.cpp Monedas.h
+	mkdir -p bin
+	g++ -o bin/testMonedas testMonedas.cpp
