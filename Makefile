@@ -7,3 +7,6 @@ clean:
 bin/testMonedas: testMonedas.cpp Monedas.h
 	mkdir -p bin
 	g++ -o bin/testMonedas testMonedas.cpp
+bin/testMochila: testMochila.cpp Mochila.h
+	mkdir -p bin
+	g++ -o bin/testMochila testMochila.cpp
